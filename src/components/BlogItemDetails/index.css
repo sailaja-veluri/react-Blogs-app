@@ -1,0 +1,41 @@
+/* Write your CSS code here */
+.blog-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 30px;
+}
+.blog-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.blog-details-title {
+  color: #000000;
+  font-size: 25px;
+  align-self: center;
+}
+.author-details {
+  display: flex;
+}
+.author-pic {
+  height: 30px;
+  width: 30px;
+  border-radius: 30px;
+  margin-top: 15px;
+}
+.details-author-name {
+  color: #000000;
+  font-size: 15px;
+  margin-left: 10px;
+}
+.blog-image {
+  width: 100%;
+  height: 50vh;
+  border-radius: 30px;
+}
+.blog-content {
+  color: #000000;
+  font-size: 15px;
+}
